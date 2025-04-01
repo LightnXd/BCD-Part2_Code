@@ -2,7 +2,7 @@ require('dotenv').config();
 const fs = require('fs');
 const crypto = require('crypto');
 const readlineSync = require("readline-sync");
-const {Blockchain} = require('./blockchain');
+const {Blockchain} = require('./blockchain'); //test
 
 const blockchain = new Blockchain('activity.js');
 
